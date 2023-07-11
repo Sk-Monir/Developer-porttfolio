@@ -1,0 +1,38 @@
+/* common css start*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.row{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.text_center{
+    text-align: center;
+}
+/* common css End*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav_ttl{
+    font-weight: 800;
+    font-size: 45px;
+}
+.nav li{
+    margin: 0 20px;
+}
+.highlight{
+    color:#FD6E0A;
+}
