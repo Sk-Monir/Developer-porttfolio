@@ -10,6 +10,8 @@ body{
 }
 .row{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 li{
     list-style: none;
@@ -19,6 +21,21 @@ a{
 }
 .text_center{
     text-align: center;
+}
+.btn{
+    color:#fff;
+    background-color: #FD6E0A;
+    padding: 15px 30px;
+    border:1px solid #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    transition: .3s all linear;
+}
+.btn:hover{
+    color:#FD6E0A;
+    background-color: #fff;
+    border:1px solid #FD6E0A;
 }
 /* common css End*/
 .nav{
