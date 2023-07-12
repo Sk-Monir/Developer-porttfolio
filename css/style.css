@@ -151,4 +151,78 @@ a{
     padding-right: 30px;
     line-height: 30px;
 }
-/* what do sction end  */
+/* what do section end  */
+/* resume section start */
+#resume_sec{
+    margin: 100px 0;
+}
+.resume_ttl{
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin:20px 0;
+}
+.resume_items{
+    display: flex;
+    justify-content: space-around
+}
+#resume_sec .item{
+    border-bottom: 1px solid #D1D1D1;
+    margin: 30px 100px 30px 0;
+}
+#resume_sec .item_ttl{
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#resume_sec .item_sub_ttl{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+#resume_sec .item_info{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-right:30px ;
+}
+#resume_sec .btn_center{
+    margin: 0 auto;
+}
+/* contact section start */
+#contact{
+    background: #FFF8F3;
+    padding: 50px 0;
+}
+#contact .contact_ttl h3{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#contact .contact_ttl p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px ;
+}
+.contact_item{
+    display: flex;
+    gap:100px;
+}
+.contact_ttl input[type=text],input[type=email],textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    border: 0;
+    padding: 18px 30px;
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+
+}
+/* resume section end */
